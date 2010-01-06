@@ -45,20 +45,20 @@ li > p:only-child {
     background: #eee;
     border: 1px solid #ccc;
     font: 15px sans-serif;
-    width: 100px;
+    width: 120px;
     margin: 1px;
     padding: 4px;
 }
 .option > input[type="text"] {
     font: 15px sans-serif;
     border: 1px inset #eee;
-    margin: 1px 120px;
+    margin: 1px 0 1px 140px;
     padding: 4px;
 }
 .option > .description {
     font-size: smaller;
     color: #888;
-    margin: 1px 120px;
+    margin: 1px 0 1px 140px;
     padding: 0 2px;
 }
 

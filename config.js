@@ -7,7 +7,7 @@ var config = {
             try {
                 return JSON.parse(localStorage[key]);
             } catch(e) {
-                return null;
+                return localStorage[key];
             }
         }
     },

@@ -80,3 +80,12 @@ input[type="text"].color {
     font-family: monospace;
     width: 8em;
 }
+
+table.commands {
+    width: 90%;
+    margin: auto;
+}
+table.commands th {
+    background: #eee;
+    text-align: left;
+}

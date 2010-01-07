@@ -13,5 +13,12 @@ var config = {
     },
     set: function(key, value) {
         localStorage[key] = JSON.stringify(value);
+    },
+    defaults: function(vals) {
+        for (var key in vals) {
+            if (!this.has(key)) {
+                this.set(key, vals[key]);
+            }
+        };
     }
 };

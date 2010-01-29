@@ -8,7 +8,7 @@ html {
 body {
     margin: auto;
     padding: 0.5em 2em;
-    width: 42em;
+    width: 45em;
     border: 1px solid #7c8085;
     background: -webkit-gradient(
         linear, 0 0, 0 32, from(#f2f2f2), to(#fff)
